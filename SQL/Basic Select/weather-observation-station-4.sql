@@ -1,0 +1,1 @@
+select count(*) - count(unique(city)) from station;
